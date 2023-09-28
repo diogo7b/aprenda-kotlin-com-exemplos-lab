@@ -81,7 +81,7 @@ fun main() {
         Nivel.INTERMEDIARIO)
     
     // Criação de Formação
-    val formacao1 = Formacao("Formação em Prgramação", Nivel.BASICO, mutableListOf(imersao1, curso1, curso2) )
+    val formacao1 = Formacao("Formação em Programação", Nivel.BASICO, mutableListOf(imersao1, curso1, curso2) )
     
     // Matriculas de alunos
    	formacao1.matricular(aluno1)
